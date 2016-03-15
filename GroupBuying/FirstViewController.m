@@ -8,9 +8,13 @@
 
 #import "FirstViewController.h"
 #import "NavItem.h"
+#import "PopViewController.h"
 
-@interface FirstViewController ()
-
+@interface FirstViewController () {
+    UIBarButtonItem *firstItem;
+    UIBarButtonItem *secondItem;
+    UIBarButtonItem *thirdItem;
+}
 @end
 
 @implementation FirstViewController
@@ -45,11 +49,41 @@ static NSString * const reuseIdentifier = @"Cell";
     self.navigationItem.leftBarButtonItem = logo;
     
     //2. 3个UIButtonItem
-    UIBarButtonItem *firstItem = [[UIBarButtonItem alloc] initWithCustomView:[NavItem makeItem]];
-    UIBarButtonItem *secondItem = [[UIBarButtonItem alloc] initWithCustomView:[NavItem makeItem]];
-    UIBarButtonItem *thirdItem = [[UIBarButtonItem alloc] initWithCustomView:[NavItem makeItem]];
+    NavItem *first = [NavItem makeItem];
+    [first addTarget:self action:@selector(firstClick)];
+    
+    NavItem *second = [NavItem makeItem];
+    [second addTarget:self action:@selector(secondClick)];
+    
+    NavItem *third = [NavItem makeItem];
+    [third addTarget:self action:@selector(thirdClick)];
+    
+    
+    firstItem = [[UIBarButtonItem alloc] initWithCustomView:first];
+    secondItem = [[UIBarButtonItem alloc] initWithCustomView:second];
+    thirdItem = [[UIBarButtonItem alloc] initWithCustomView:third];
     
     self.navigationItem.leftBarButtonItems = @[logo, firstItem, secondItem, thirdItem];
+}
+
+#pragma mark - 点击事件
+- (void) firstClick {
+    [self createPopver];
+}
+
+- (void) secondClick {
+    NSLog(@"secondClick");
+}
+
+- (void) thirdClick {
+    NSLog(@"thirdClick");
+}
+
+#pragma mark - 下拉菜单
+- (void)createPopver {
+    PopViewController *pvc = [[PopViewController alloc] init];
+    UIPopoverController *pop = [[UIPopoverController alloc] initWithContentViewController:pvc];
+    [pop presentPopoverFromBarButtonItem:firstItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
