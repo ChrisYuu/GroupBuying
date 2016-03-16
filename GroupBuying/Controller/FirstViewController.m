@@ -9,6 +9,8 @@
 #import "FirstViewController.h"
 #import "NavItem.h"
 #import "PopViewController.h"
+#import "SecondPopViewController.h"
+#import "CityGroupModel.h"
 
 @interface FirstViewController () {
     UIBarButtonItem *firstItem;
@@ -33,6 +35,15 @@ static NSString * const reuseIdentifier = @"Cell";
     self.collectionView.backgroundColor = [UIColor whiteColor];
     [self createNavBar];
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    
+    CityGroupModel *md = [[CityGroupModel alloc] init];
+    NSArray *arr = [md getModelArray];
+//    for (CityGroupModel *model in arr) {
+//        NSLog(@"%@", model.title);
+//        for (NSString *city in model.cities) {
+//            NSLog(@"city:%@", city);
+//        }
+//    }
 }
 
 #pragma mark - 创建导航栏
@@ -65,7 +76,7 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 - (void) secondClick {
-    NSLog(@"secondClick");
+    [self createSecondPopover];
 }
 
 - (void) thirdClick {
@@ -77,6 +88,13 @@ static NSString * const reuseIdentifier = @"Cell";
     PopViewController *pvc = [[PopViewController alloc] init];
     UIPopoverController *pop = [[UIPopoverController alloc] initWithContentViewController:pvc];
     [pop presentPopoverFromBarButtonItem:firstItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+}
+
+#pragma mark - 第二个下拉菜单 
+- (void)createSecondPopover {
+    SecondPopViewController *spvc = [[SecondPopViewController alloc] initWithNibName:@"SecondPopViewController" bundle:nil];
+    UIPopoverController *pop = [[UIPopoverController alloc] initWithContentViewController:spvc];
+    [pop presentPopoverFromBarButtonItem:secondItem permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
