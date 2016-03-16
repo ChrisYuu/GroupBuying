@@ -10,6 +10,8 @@
 
 @interface PopView : UIView
 
+@property (nonatomic, strong)NSArray *categoriesArray;
+
 + (PopView *)makePopView;
 
 @end

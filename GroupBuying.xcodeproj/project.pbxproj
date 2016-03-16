@@ -7,37 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83DD65A51C9943CC00D1C253 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD65981C9943CC00D1C253 /* FirstViewController.m */; };
+		83DD65A61C9943CC00D1C253 /* MyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD659A1C9943CC00D1C253 /* MyNavController.m */; };
+		83DD65A71C9943CC00D1C253 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD659C1C9943CC00D1C253 /* PopViewController.m */; };
+		83DD65A81C9943CC00D1C253 /* NavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD65A01C9943CC00D1C253 /* NavItem.m */; };
+		83DD65A91C9943CC00D1C253 /* NavItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65A11C9943CC00D1C253 /* NavItem.xib */; };
+		83DD65AA1C9943CC00D1C253 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD65A31C9943CC00D1C253 /* PopView.m */; };
+		83DD65AB1C9943CC00D1C253 /* popView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65A41C9943CC00D1C253 /* popView.xib */; };
+		83DD65B11C99443B00D1C253 /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65AD1C99443B00D1C253 /* categories.plist */; };
+		83DD65B21C99443B00D1C253 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65AE1C99443B00D1C253 /* cities.plist */; };
+		83DD65B31C99443B00D1C253 /* cityGroups.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65AF1C99443B00D1C253 /* cityGroups.plist */; };
+		83DD65B41C99443B00D1C253 /* sorts.plist in Resources */ = {isa = PBXBuildFile; fileRef = 83DD65B01C99443B00D1C253 /* sorts.plist */; };
+		83DD65B71C9944D700D1C253 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD65B61C9944D700D1C253 /* CategoryModel.m */; };
 		83F782D01C97BD7C009406B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F782CF1C97BD7C009406B6 /* main.m */; };
 		83F782D31C97BD7C009406B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F782D21C97BD7C009406B6 /* AppDelegate.m */; };
 		83F782DB1C97BD7C009406B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F782DA1C97BD7C009406B6 /* Assets.xcassets */; };
-		B6C0CADE1C986151009871E6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CADD1C986151009871E6 /* FirstViewController.m */; };
-		B6C0CAE11C9862EE009871E6 /* MyNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CAE01C9862EE009871E6 /* MyNavController.m */; };
-		B6C0CAE41C986650009871E6 /* NavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CAE31C986650009871E6 /* NavItem.m */; };
-		B6C0CAE61C986672009871E6 /* NavItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0CAE51C986672009871E6 /* NavItem.xib */; };
-		B6C0CAE91C9873C0009871E6 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CAE81C9873C0009871E6 /* PopViewController.m */; };
-		B6C0CAEC1C987525009871E6 /* PopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C0CAEB1C987525009871E6 /* PopView.m */; };
-		B6C0CAEE1C98753A009871E6 /* popView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6C0CAED1C98753A009871E6 /* popView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83DD65971C9943CC00D1C253 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		83DD65981C9943CC00D1C253 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		83DD65991C9943CC00D1C253 /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
+		83DD659A1C9943CC00D1C253 /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
+		83DD659B1C9943CC00D1C253 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
+		83DD659C1C9943CC00D1C253 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		83DD659F1C9943CC00D1C253 /* NavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavItem.h; sourceTree = "<group>"; };
+		83DD65A01C9943CC00D1C253 /* NavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavItem.m; sourceTree = "<group>"; };
+		83DD65A11C9943CC00D1C253 /* NavItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavItem.xib; sourceTree = "<group>"; };
+		83DD65A21C9943CC00D1C253 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
+		83DD65A31C9943CC00D1C253 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
+		83DD65A41C9943CC00D1C253 /* popView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popView.xib; sourceTree = "<group>"; };
+		83DD65AD1C99443B00D1C253 /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		83DD65AE1C99443B00D1C253 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
+		83DD65AF1C99443B00D1C253 /* cityGroups.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cityGroups.plist; sourceTree = "<group>"; };
+		83DD65B01C99443B00D1C253 /* sorts.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sorts.plist; sourceTree = "<group>"; };
+		83DD65B51C9944D700D1C253 /* CategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryModel.h; sourceTree = "<group>"; };
+		83DD65B61C9944D700D1C253 /* CategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryModel.m; sourceTree = "<group>"; };
 		83F782CB1C97BD7C009406B6 /* GroupBuying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F782CF1C97BD7C009406B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83F782D11C97BD7C009406B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83F782D21C97BD7C009406B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		83F782DA1C97BD7C009406B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F782DF1C97BD7C009406B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B6C0CADC1C986151009871E6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		B6C0CADD1C986151009871E6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		B6C0CADF1C9862EE009871E6 /* MyNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavController.h; sourceTree = "<group>"; };
-		B6C0CAE01C9862EE009871E6 /* MyNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavController.m; sourceTree = "<group>"; };
-		B6C0CAE21C986650009871E6 /* NavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavItem.h; sourceTree = "<group>"; };
-		B6C0CAE31C986650009871E6 /* NavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavItem.m; sourceTree = "<group>"; };
-		B6C0CAE51C986672009871E6 /* NavItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavItem.xib; sourceTree = "<group>"; };
-		B6C0CAE71C9873C0009871E6 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
-		B6C0CAE81C9873C0009871E6 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
-		B6C0CAEA1C987525009871E6 /* PopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopView.h; sourceTree = "<group>"; };
-		B6C0CAEB1C987525009871E6 /* PopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopView.m; sourceTree = "<group>"; };
-		B6C0CAED1C98753A009871E6 /* popView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83DD65961C9943CC00D1C253 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83DD65971C9943CC00D1C253 /* FirstViewController.h */,
+				83DD65981C9943CC00D1C253 /* FirstViewController.m */,
+				83DD65991C9943CC00D1C253 /* MyNavController.h */,
+				83DD659A1C9943CC00D1C253 /* MyNavController.m */,
+				83DD659B1C9943CC00D1C253 /* PopViewController.h */,
+				83DD659C1C9943CC00D1C253 /* PopViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		83DD659D1C9943CC00D1C253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83DD65B51C9944D700D1C253 /* CategoryModel.h */,
+				83DD65B61C9944D700D1C253 /* CategoryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		83DD659E1C9943CC00D1C253 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83DD659F1C9943CC00D1C253 /* NavItem.h */,
+				83DD65A01C9943CC00D1C253 /* NavItem.m */,
+				83DD65A11C9943CC00D1C253 /* NavItem.xib */,
+				83DD65A21C9943CC00D1C253 /* PopView.h */,
+				83DD65A31C9943CC00D1C253 /* PopView.m */,
+				83DD65A41C9943CC00D1C253 /* popView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83DD65AC1C99443B00D1C253 /* PlistData */ = {
+			isa = PBXGroup;
+			children = (
+				83DD65AD1C99443B00D1C253 /* categories.plist */,
+				83DD65AE1C99443B00D1C253 /* cities.plist */,
+				83DD65AF1C99443B00D1C253 /* cityGroups.plist */,
+				83DD65B01C99443B00D1C253 /* sorts.plist */,
+			);
+			path = PlistData;
+			sourceTree = "<group>";
+		};
 		83F782C21C97BD7C009406B6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,20 +127,11 @@
 		83F782CD1C97BD7C009406B6 /* GroupBuying */ = {
 			isa = PBXGroup;
 			children = (
+				83DD65961C9943CC00D1C253 /* Controller */,
+				83DD659D1C9943CC00D1C253 /* Model */,
+				83DD659E1C9943CC00D1C253 /* View */,
 				83F782D11C97BD7C009406B6 /* AppDelegate.h */,
 				83F782D21C97BD7C009406B6 /* AppDelegate.m */,
-				B6C0CADC1C986151009871E6 /* FirstViewController.h */,
-				B6C0CADD1C986151009871E6 /* FirstViewController.m */,
-				B6C0CAE71C9873C0009871E6 /* PopViewController.h */,
-				B6C0CAE81C9873C0009871E6 /* PopViewController.m */,
-				B6C0CADF1C9862EE009871E6 /* MyNavController.h */,
-				B6C0CAE01C9862EE009871E6 /* MyNavController.m */,
-				B6C0CAE21C986650009871E6 /* NavItem.h */,
-				B6C0CAE31C986650009871E6 /* NavItem.m */,
-				B6C0CAE51C986672009871E6 /* NavItem.xib */,
-				B6C0CAEA1C987525009871E6 /* PopView.h */,
-				B6C0CAEB1C987525009871E6 /* PopView.m */,
-				B6C0CAED1C98753A009871E6 /* popView.xib */,
 				83F782DA1C97BD7C009406B6 /* Assets.xcassets */,
 				83F782DF1C97BD7C009406B6 /* Info.plist */,
 				83F782CE1C97BD7C009406B6 /* Supporting Files */,
@@ -94,6 +142,7 @@
 		83F782CE1C97BD7C009406B6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				83DD65AC1C99443B00D1C253 /* PlistData */,
 				83F782CF1C97BD7C009406B6 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -156,9 +205,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C0CAE61C986672009871E6 /* NavItem.xib in Resources */,
+				83DD65B11C99443B00D1C253 /* categories.plist in Resources */,
+				83DD65A91C9943CC00D1C253 /* NavItem.xib in Resources */,
+				83DD65B41C99443B00D1C253 /* sorts.plist in Resources */,
+				83DD65AB1C9943CC00D1C253 /* popView.xib in Resources */,
+				83DD65B21C99443B00D1C253 /* cities.plist in Resources */,
 				83F782DB1C97BD7C009406B6 /* Assets.xcassets in Resources */,
-				B6C0CAEE1C98753A009871E6 /* popView.xib in Resources */,
+				83DD65B31C99443B00D1C253 /* cityGroups.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,13 +222,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6C0CAEC1C987525009871E6 /* PopView.m in Sources */,
-				B6C0CAE91C9873C0009871E6 /* PopViewController.m in Sources */,
 				83F782D31C97BD7C009406B6 /* AppDelegate.m in Sources */,
+				83DD65B71C9944D700D1C253 /* CategoryModel.m in Sources */,
 				83F782D01C97BD7C009406B6 /* main.m in Sources */,
-				B6C0CADE1C986151009871E6 /* FirstViewController.m in Sources */,
-				B6C0CAE11C9862EE009871E6 /* MyNavController.m in Sources */,
-				B6C0CAE41C986650009871E6 /* NavItem.m in Sources */,
+				83DD65AA1C9943CC00D1C253 /* PopView.m in Sources */,
+				83DD65A71C9943CC00D1C253 /* PopViewController.m in Sources */,
+				83DD65A61C9943CC00D1C253 /* MyNavController.m in Sources */,
+				83DD65A81C9943CC00D1C253 /* NavItem.m in Sources */,
+				83DD65A51C9943CC00D1C253 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

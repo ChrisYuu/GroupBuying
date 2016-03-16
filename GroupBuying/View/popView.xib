@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PopView">
+            <rect key="frame" x="0.0" y="0.0" width="376" height="342"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="G2r-YO-zNS">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="400"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="QMy-OC-tl3"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="fkT-Di-fBR"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="C70-AO-ikx">
+                    <rect key="frame" x="145" y="0.0" width="150" height="400"/>
+                    <animations/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="RF9-LJ-ep0"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="s4k-8E-aSg"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="C70-AO-ikx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="65Y-DH-8PA"/>
+                <constraint firstAttribute="bottom" secondItem="C70-AO-ikx" secondAttribute="bottom" id="93f-48-8Xu"/>
+                <constraint firstAttribute="trailing" secondItem="C70-AO-ikx" secondAttribute="trailing" id="AqY-oh-tD4"/>
+                <constraint firstItem="C70-AO-ikx" firstAttribute="width" secondItem="G2r-YO-zNS" secondAttribute="width" id="Ejg-Gp-qqo"/>
+                <constraint firstItem="G2r-YO-zNS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="GPW-he-kEr"/>
+                <constraint firstItem="C70-AO-ikx" firstAttribute="leading" secondItem="G2r-YO-zNS" secondAttribute="trailing" id="Nc1-2m-Irn"/>
+                <constraint firstItem="C70-AO-ikx" firstAttribute="leading" secondItem="G2r-YO-zNS" secondAttribute="trailing" id="cGt-0F-SdS"/>
+                <constraint firstAttribute="bottom" secondItem="G2r-YO-zNS" secondAttribute="bottom" id="cg7-rP-dyI"/>
+                <constraint firstItem="G2r-YO-zNS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="xY8-v3-wGl"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftTable" destination="G2r-YO-zNS" id="qZF-Pv-4wT"/>
+                <outlet property="rightTable" destination="C70-AO-ikx" id="4Gd-Wk-ERR"/>
+            </connections>
+            <point key="canvasLocation" x="412" y="423"/>
+        </view>
+    </objects>
+</document>
