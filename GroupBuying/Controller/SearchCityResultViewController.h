@@ -10,4 +10,7 @@
 
 @interface SearchCityResultViewController : UITableViewController
 
+@property (strong, nonatomic)NSString *searchText;
+@property (strong, nonatomic)NSArray *citiesArray;
+
 @end

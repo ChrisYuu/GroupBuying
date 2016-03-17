@@ -84,6 +84,7 @@
 -(void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     if (searchText.length){
         self.resultControll.view.hidden = NO;
+        self.resultControll.searchText = searchText;
     }else {
         self.resultControll.view.hidden = YES;
     }

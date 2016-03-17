@@ -21,6 +21,7 @@
 		83DD65B71C9944D700D1C253 /* CategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DD65B61C9944D700D1C253 /* CategoryModel.m */; };
 		83EF94F51C9AA6870058B533 /* SearchCityResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF94F41C9AA6870058B533 /* SearchCityResultViewController.m */; };
 		83EF94F91C9AA8AF0058B533 /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF94F81C9AA8AF0058B533 /* UIView+AutoLayout.m */; };
+		83EF94FC1C9ACCD00058B533 /* Cities.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF94FB1C9ACCD00058B533 /* Cities.m */; };
 		83F782D01C97BD7C009406B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F782CF1C97BD7C009406B6 /* main.m */; };
 		83F782D31C97BD7C009406B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F782D21C97BD7C009406B6 /* AppDelegate.m */; };
 		83F782DB1C97BD7C009406B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F782DA1C97BD7C009406B6 /* Assets.xcassets */; };
@@ -54,6 +55,8 @@
 		83EF94F41C9AA6870058B533 /* SearchCityResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCityResultViewController.m; sourceTree = "<group>"; };
 		83EF94F71C9AA8AF0058B533 /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
 		83EF94F81C9AA8AF0058B533 /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		83EF94FA1C9ACCD00058B533 /* Cities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cities.h; sourceTree = "<group>"; };
+		83EF94FB1C9ACCD00058B533 /* Cities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cities.m; sourceTree = "<group>"; };
 		83F782CB1C97BD7C009406B6 /* GroupBuying.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupBuying.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83F782CF1C97BD7C009406B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83F782D11C97BD7C009406B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 				83DD65B61C9944D700D1C253 /* CategoryModel.m */,
 				B6C0CAF71C99B1E7009871E6 /* CityGroupModel.h */,
 				B6C0CAF81C99B1E7009871E6 /* CityGroupModel.m */,
+				83EF94FA1C9ACCD00058B533 /* Cities.h */,
+				83EF94FB1C9ACCD00058B533 /* Cities.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			files = (
 				83F782D31C97BD7C009406B6 /* AppDelegate.m in Sources */,
 				83DD65B71C9944D700D1C253 /* CategoryModel.m in Sources */,
+				83EF94FC1C9ACCD00058B533 /* Cities.m in Sources */,
 				B6C0CAFD1C99BF8E009871E6 /* ChangeCityViewController.m in Sources */,
 				83F782D01C97BD7C009406B6 /* main.m in Sources */,
 				83DD65AA1C9943CC00D1C253 /* PopView.m in Sources */,
